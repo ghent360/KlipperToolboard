@@ -3294,7 +3294,7 @@
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005e7e5340")
     (attr smd)
-    (fp_text reference "C8" (at 0 -4.35 180) (layer "F.SilkS")
+    (fp_text reference "C8" (at 0 -4.35 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 57005970-8936-4ca2-b9ab-305cd4c3e2f8)
     )
@@ -5187,8 +5187,8 @@
       (xy 0.555814 2.531069)) (layer "B.SilkS") (width 0.01) (fill solid) (tstamp 518aaa64-590b-4243-9dcc-e41042c64405))
   )
 
-  (gr_circle (center 192.7 119.8) (end 192.85 119.8) (layer "F.SilkS") (width 0.3) (fill none) (tstamp 00000000-0000-0000-0000-00005f2c4312))
   (gr_circle (center 212.65 122.4) (end 212.8 122.4) (layer "F.SilkS") (width 0.3) (fill none) (tstamp 00000000-0000-0000-0000-00005f2c4312))
+  (gr_circle (center 192.7 119.8) (end 192.85 119.8) (layer "F.SilkS") (width 0.3) (fill none) (tstamp 00000000-0000-0000-0000-00005f2c4312))
   (gr_circle (center 205.75 130.25) (end 205.9 130.25) (layer "F.SilkS") (width 0.3) (fill none) (tstamp 00000000-0000-0000-0000-00005f39c454))
   (gr_circle (center 187.4 127.7) (end 187.55 127.7) (layer "F.SilkS") (width 0.3) (fill none) (tstamp 00000000-0000-0000-0000-0000605b430b))
   (gr_poly (pts
