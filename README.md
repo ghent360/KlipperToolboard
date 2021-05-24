@@ -1,11 +1,11 @@
 # Huvud 3D Printer toolhead board
-A very small 3D printer board for use on a direct drive toolhead. It is designed to be used with Klipper firmware.
-Klipper has the awesome feature to be able to use multiple MCUs connected to the host over a (relatively) high latency connection. Using CAN bus it is possible to chain many boards using just a pair of twisted wires and power. A good solution for multiple head 3D printers.
+This is a simplified version of the KilipperBoard started by bondus(https://github.com/bondus/KlipperToolboard). The goal is to make the board as cheap as possible. Removed the CAN interface, since I believe USB is more practical.
+# Original author words
+A very small 3D printer board for use on a direct drive toolhead. It is designed to be used with Klipper firmware. Klipper has the awesome feature to be able to use multiple MCUs connected to the host over a (relatively) high latency connection.
 
 ![Image of Board](doc/050_small.jpg)
 
 Features: 
-* CAN bus. 
 * One TMC2209 stepper driver for the extruder
 * Two MOSFETs for fans
 * One big MOSFET for the hotend heater
@@ -18,29 +18,13 @@ Main power is 12-24V. 24V is preferred to keep the currents low
 
 All done in KiCad and open source. 
 
-If you are interesting in helping out, testing or eventually using this board feel free to contact me at glpontus@gmail.com.
+If you are interesting in helping out, testing or eventually using this board feel free to contact me at ghent360@iqury.us.
 
 ### Documentation
 
 * [Pinout and hook up](doc/pinout.md)
 * [Klipper configuration](doc/klipper.md)
-* [CAN bus](doc/canbus.md)
 * [Prototype versions of the board](doc/versions.md)
-
----
-Buy it at:
-
-* Lukes Lab: https://www.lukeslab.online/general-3d-printer-parts/klipper-toolboard-can-huvud-v0-5
-* Tindie: https://www.tindie.com/products/huvud/huvud-3d-printer-hotend-control-board/
-
-
-
----
-
-Read more about the project activites over at hackaday:
-https://hackaday.io/project/174429-huvud-a-3d-printer-tool-head-controller-board
-
----
 
 
 

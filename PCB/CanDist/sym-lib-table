@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name pwr_BeagleBone)(type Legacy)(uri ${KIPRJMOD}/pwr_BeagleBone.lib)(options "")(descr ""))
-)
