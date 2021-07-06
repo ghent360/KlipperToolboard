@@ -8,7 +8,7 @@
 * Pick STM32F103
 * Pick Bootloader offset (2KiB bootloader (HID Bootloader))
 * Disable Use USB for communication (instead of serial)
-* Enable Use CAN for communication (instead of seria)l
+* Enable Use CAN for communication (instead of serial)
 * Pick CAN pins (Pins PB8(rx) and PB9(tx))
 
 It is possible to use USB instead of the CAN bus, like most other controller boards. 
