@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "track_dangling|218124000|129476000|18256af2-657d-4f33-8eb5-b0abf306fa3e|00000000-0000-0000-0000-000000000000",
+        "track_dangling|218176000|121976000|ca441dc5-c542-4dfb-8d45-1dfee030cbec|00000000-0000-0000-0000-000000000000",
+        "track_dangling|218724000|124476000|05797aee-de96-4a88-9187-cdea01cdb035|00000000-0000-0000-0000-000000000000",
+        "track_dangling|218724000|126976000|cceb613a-28da-42c5-a53b-8aca7613f65e|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -431,7 +436,7 @@
       "idf": "",
       "netlist": "Huvud.net",
       "specctra_dsn": "Huvud.dsn",
-      "step": "",
+      "step": "Huvud.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -451,13 +456,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "Pcbnew",
     "ngspice": {
