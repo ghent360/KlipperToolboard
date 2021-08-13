@@ -55,7 +55,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|154955899|123050001|6fc48c13-3467-49a8-896d-ebafd7eb5784|b14781b2-de3f-4333-8611-2528f20d1bc7",
+        "silk_overlap|148800000|121409500|50c1fc1c-7e5b-477f-8ee5-603a035325cb|1eeb6d36-85ce-4c66-8879-641157c97a08",
+        "silk_overlap|153277380|116858300|b64e4e98-4dcd-4410-a3de-d2feff8c132d|e3c0fac2-5bd4-42ee-8325-a69942a9ee05"
+      ],
       "meta": {
         "version": 2
       },
@@ -391,7 +395,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PT-board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
