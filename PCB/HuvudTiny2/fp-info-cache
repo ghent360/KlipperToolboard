@@ -1,4 +1,4 @@
-19827139158203372
+19828780637201692
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52261,6 +52261,13 @@ Testpad 02x02 2.54
 0
 4
 4
+Huvud
+W25Q16JVUXIQ
+
+
+0
+9
+9
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
