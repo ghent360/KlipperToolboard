@@ -1,6 +1,6 @@
 (footprint "W25Q16JVUXIQ" (version 20221231) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D68C20)
+  (tedit 61D68CB1)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -73,4 +73,9 @@
   (pad "7" smd rect (at 1.395999 -0.25) (size 0.807999 0.2548) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a4d5b29e-783c-4b70-8001-67afa32842ab))
   (pad "8" smd rect (at 1.395999 -0.750001) (size 0.807999 0.2548) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9ba6595a-0fd9-46e5-af0c-6b0489fecb2a))
   (pad "9" smd rect (at 0 0) (size 0.2032 1.6002) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 55afcce9-efff-4546-94aa-935acc99cff3))
+  (model "${KIPRJMOD}/3D/W25Q16JVUXIQ_WIN.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
