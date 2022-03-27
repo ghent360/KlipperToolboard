@@ -3,7 +3,7 @@ This is a simplified version of the KilipperBoard started by bondus(https://gith
 # Original author words
 A very small 3D printer board for use on a direct drive toolhead. It is designed to be used with Klipper firmware. Klipper has the awesome feature to be able to use multiple MCUs connected to the host over a (relatively) high latency connection.
 
-![Image of Board](doc/050_small.jpg)
+![Image of Board](doc/Board.png)
 
 Features: 
 * One TMC2209 stepper driver for the extruder
