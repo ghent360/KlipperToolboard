@@ -1855,7 +1855,7 @@
       (net 15 "Net-(D3-K)") (pinfunction "D") (pintype "passive") (tstamp 284fe2fc-a095-481a-9f11-ff2cec0f7793))
     (pad "3" smd roundrect locked (at 1.45 0.975 90) (size 0.8 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "Net-(D3-K)") (pinfunction "D") (pintype "passive") (tstamp 83d12d63-6ac8-4f9f-8f35-fef36eb81f39))
-    (model "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4435,7 +4435,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 886044c6-ca27-442c-b4a2-e348801c4d44))
     (pad "57" thru_hole circle locked (at 1.275 1.275 270) (size 0.6 0.6) (drill 0.35) (layers *.Cu)
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 98e79b8e-8995-4b68-836d-fdc641366b4d))
-    (model "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8082,7 +8082,7 @@
       (net 80 "Net-(U7-VDD)") (pinfunction "VDD") (pintype "power_in") (tstamp 46c42150-ba08-4934-a15a-ff6a37ad0d9b))
     (pad "21" smd rect (at 0 0 270) (size 3.25 3.25) (layers "F.Cu" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 2c1c19ec-6a2c-4b6d-affc-857bbfb0f76c))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TQFN-20-1EP_5x5mm_P0.65mm_EP3.1x3.1mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
